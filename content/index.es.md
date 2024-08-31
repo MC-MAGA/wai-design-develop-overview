@@ -1,12 +1,12 @@
 ---
-# Translation info https://www.w3.org/wiki/WAI/Website/Translate
+# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after "#".
+# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
 title: "Introducción al diseño y al desarrollo"
 nav_title: "Introducción"
-
 lang: es
-last_updated: 2019-09-30
-permalink: /design-develop/es
+last_updated: 2019-09-30  # Put the date of this translation YYYY-MM-DD (with month in the middle)
+
 translators: 
 - name: "Carlos Muncharaz"
   link: "http://www.muncharaz.eu/"
@@ -15,13 +15,21 @@ github:
   repository: w3c/wai-design-develop-overview
   path: "content/index.es.md"
 
+permalink: /design-develop/es
+ref: /design-develop/ # Do not change this
+
 class: tight-page
 feedbackmail: wai@w3.org
-footer: > # Text in footer in HTML
+
+# In the footer below:
+# Do not change the dates
+# Do not translate CHANGELOG
+# Translate the other words, including "Date:" and "Editor:"
+# Translate the Working Group name. Leave the Working Group acronym in English.
+footer: >
   <p><strong>Fecha:</strong> Actualizado el 20 de septiembre del 2019.</p>
   <p><strong>Editora:</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Desarrollado con la colaboración del Grupo de Trabajo de Educación y Difusión (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
-ref: /design-develop/
 ---
 
 {::nomarkdown}
@@ -61,8 +69,7 @@ Estos trucos presentan algunas consideraciones básicas a fin de hacer su sitio 
 
 ## Recursos para audio y vídeo
 
-[Cómo hacer los medios de audio y vídeo accesibles](https://www.w3.org/WAI/media/av/)
-
+[[Cómo hacer los medios de audio y vídeo accesibles]](/media/av/)
 : Le ayuda a aprender y a crear subtítulos, audiodescripción para la información visual, transcripciones descriptivas y lengua de signos para los medios. Incluye orientación para crear vídeos nuevos y sobre la accesibilidad de los reproductores multimedia. Presenta experiencias de usuario y beneficios para las organizaciones.
 {:.paragraph-like}
 
@@ -70,12 +77,12 @@ Estos trucos presentan algunas consideraciones básicas a fin de hacer su sitio 
 
 Los tutoriales proporcionan orientación para crear componentes que cumplen con las Pautas de Accesibilidad para el Contenido Web (WCAG), los cuales son más accesibles para las personas con discapacidad y ofrecen una experiencia de usuario mejorada para todo el mundo.
 
-* **[Tutorial de estructura de la página](https://www.w3.org/WAI/tutorials/page-structure/)**
-* **[Tutorial de menús](https://www.w3.org/WAI/tutorials/menus/)**
-* **[Tutorial de imágenes](https://www.w3.org/WAI/tutorials/images/)**
-* **[Tutorial de tablas](https://www.w3.org/WAI/tutorials/tables/)**
-* **[Tutorial de formularios](https://www.w3.org/WAI/tutorials/forms/)**
-* **[Tutorial de carruseles](https://www.w3.org/WAI/tutorials/carousels/)**
+* **[[Tutorial de estructura de la página]](/tutorials/page-structure/)**
+* **[[Tutorial de menús]](/tutorials/menus/)**
+* **[[Tutorial de imágenes]](/tutorials/images/)**
+* **[[Tutorial de tablas]](/tutorials/tables/)**
+* **[[Tutorial de formularios]](/tutorials/forms/)**
+* **[[Tutorial de carruseles]](/tutorials/carousels/)**
 
 ## Otros recursos de diseño y desarrollo
 
@@ -85,6 +92,6 @@ Los tutoriales proporcionan orientación para crear componentes que cumplen con 
 [Prácticas para el autor de WAI-ARIA](https://www.w3.org/TR/wai-aria-practices/)
 : Proporciona aproximaciones, consejos y ejemplos para ayudar a los desarrolladores de aplicaciones web a hacer widgets, navegación y comportamientos accesibles a través de los roles, estados y propiedades de WAI-ARIA (Accessible Rich Internet Applications).
 
-[Desarrollando sitios web para personas mayores: cómo se aplica WCAG](https://www.w3.org/WAI/older-users/developing/)
+[Desarrollando sitios web para personas mayores: cómo se aplica WCAG](/older-users/developing/)
 : Enumera casos de éxito y técnicas WCAG específicos que mejoran la accesibilidad y la usabilidad para las personas mayores particularmente.
 {:.paragraph-like}

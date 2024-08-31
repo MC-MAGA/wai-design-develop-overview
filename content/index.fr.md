@@ -1,12 +1,11 @@
 ---
-# Translation info https://www.w3.org/wiki/WAI/Website/Translate
+# Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after "#".
+# In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
 title: "Concevoir et développer – Vue d’ensemble"
 nav_title: "Vue d’ensemble"
-
 lang: fr
-last_updated: 2020-12-31
-permalink: /design-develop/fr
+last_updated: 2023-11-29  # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 translators:
 - name: "Sofia Ahmed"
@@ -18,13 +17,22 @@ github:
   repository: w3c/wai-design-develop-overview
   path: "content/index.fr.md"
 
+permalink: /design-develop/fr
+ref: /design-develop/ # Do not change this
+
+changelog: /design-develop/changelog/ # Do not change this
 feedbackmail: wai@w3.org
 class: tight-page
+
+# In the footer below:
+# Do not change the dates
+# Do not translate CHANGELOG
+# Translate the other words, including "Date:" and "Editor:"
+# Translate the Working Group name. Leave the Working Group acronym in English.
 footer: > # Text in footer in HTML
-  <p><strong>Date :</strong> Mise à jour : 20 septembre 2019.</p>
+  <p><strong>Date :</strong> Mise à jour : 19 mai 2022. CHANGELOG.</p>
   <p><strong>Rédactrice :</strong> <a href="https://www.w3.org/People/Shawn/">Shawn Lawton Henry</a>.</p>
   <p>Développé par le groupe de travail Éducation et Promotion (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
-ref: /design-develop/
 ---
 
 {::nomarkdown}
@@ -36,7 +44,6 @@ Conseils pour la rédaction, la conception et le développement en faveur de l'a
 {::nomarkdown}
 {% include box.html type="end" %}
 {:/}
-
 
 {% include toc.html %}
 
@@ -56,7 +63,7 @@ Les conseils suivants introduisent les éléments essentiels à prendre en consi
 
 ## Ressource multimédia pour l’audio et la vidéo
 
-[Rendre le contenu multimédia audio et vidéo accessible](https://www.w3.org/WAI/media/av/)
+[[Rendre le contenu multimédia audio et vidéo accessible]](/media/av/)
 : Vous aide à comprendre et à créer les légendes et les sous-titres, les audiodescriptions des informations visuelles, les transcriptions descriptives et le langage des signes pour le contenu multimédia. Inclut des conseils pour créer de nouvelles vidéos et en savoir plus sur l’accessibilité des lecteurs multimédia. Présente des cas utilisateurs et des bénéfices pour les organisations.
 {:.paragraph-like}
 
@@ -64,21 +71,24 @@ Les conseils suivants introduisent les éléments essentiels à prendre en consi
 
 Les tutoriels donnent des conseils pour créer des composants répondant aux exigences des Règles pour l’accessibilité des contenus Web (WCAG), plus accessibles aux personnes en situation de handicap et offrant une meilleure expérience utilisateur pour tous.
 
-* **[Tutoriel : structure d’une page](https://www.w3.org/WAI/tutorials/page-structure/)**
-* **[Tutoriel : menus](https://www.w3.org/WAI/tutorials/menus/)**
-* **[Tutoriel : images](https://www.w3.org/WAI/tutorials/images/)**
-* **[Tutoriel : tableaux](https://www.w3.org/WAI/tutorials/tables/)**
-* **[Tutoriel : formulaires](https://www.w3.org/WAI/tutorials/forms/)**
-* **[Tutoriel : carrousels](https://www.w3.org/WAI/tutorials/carousels/)**
+* **[[Tutoriel : structure d’une page]](/tutorials/page-structure/)**
+* **[[Tutoriel : menus]](/tutorials/menus/)**
+* **[[Tutoriel : images]](/tutorials/images/)**
+* **[[Tutoriel : tableaux]](/tutorials/tables/)**
+* **[[Tutoriel : formulaires]](/tutorials/forms/)**
+* **[[Tutoriel : carrousels]](/tutorials/carousels/)**
 
 ## Autres ressources pour la conception et le développement
 
-[Comment répondre aux exigences des WCAG (aide-mémoire)](https://www.w3.org/WAI/WCAG21/quickref/)
-: Un aide-mémoire personnalisable des exigences (“critères de réussite”) et des techniques des Règles de l’accessibilité des contenus Web (WCAG).
+[Comment répondre aux exigences des WCAG (aide-mémoire)](https://www.w3.org/WAI/WCAG22/quickref/)
+: Un aide-mémoire personnalisable des exigences (“critères de succès”) et des techniques des Règles de l’accessibilité des contenus Web (WCAG).
 
-[Pratiques de création de WAI-ARIA](https://www.w3.org/TR/wai-aria-practices/)
-: Fournit des approches, des conseils, et des exemples pour aider les développeurs d’applications Web à créer des widgets, une navigation, et des comportements accessibles en utilisant les rôles, les états, et les propriétés WAI-ARIA (<i>Accessible Rich Internet Applications</i>).
+[Guide des pratiques de création de WAI-ARIA (<abbr title="Authoring Practices Guide" lang="en">APG</abbr>)](/ARIA/apg/)
+: Fournit des approches, des conseils, et des exemples pour aider les développeurs d’applications Web à créer des widgets, une navigation, et des comportements accessibles en utilisant les rôles, les états, et les propriétés WAI-ARIA (<i lang="en">Accessible Rich Internet Applications</i>).
 
-[Développer des sites Web pour les personnes âgées : comment s’appliquent les WCAG](https://www.w3.org/WAI/older-users/developing/)
+[Conseils pour l'accessibilité cognitive](/WCAG2/supplemental/#cognitiveaccessibilityguidance)
+: Présente des objectifs et des schémas de conception pour améliorer l'accessibilité pour les personnes avec des troubles cognitifs et d'apprentissage. Introduit dans [À propos des Conseils supplémentaires](/WCAG2/supplemental/about/).
+
+[Développer des sites Web pour les personnes âgées : comment s’appliquent les WCAG](/older-users/developing/)
 : Liste les critères de réussite et les techniques spécifiques des WCAG qui visent à améliorer l’accessibilité et l’ergonomie pour les personnes âgées.
 {:.paragraph-like}
